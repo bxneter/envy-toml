@@ -1,0 +1,12 @@
+[package]
+description = "An extension for injecting TOML into environment variables"
+edition     = "2021"
+license     = "MIT"
+name        = "envy-toml"
+version     = "0.1.0"
+
+
+[dependencies]
+envy  = "0.4.2"
+serde = { version = "1.0.163", features = ["derive"] }
+toml  = "0.7.3"
